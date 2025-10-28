@@ -1,2 +1,26 @@
-# Crop-Recommendation
-A machine learning–based web app that predicts the best crops to grow using soil nutrients and weather data. Built with Python and Streamlit, it provides top-3 crop suggestions, interactive visualizations, and data-driven insights to help farmers make smarter agricultural decisions.
+Smart Crop Recommendation System
+
+Overview
+
+  This project uses Machine Learning to recommend the best crop based on soil nutrients (N, P, K), temperature, humidity, pH, and rainfall.
+It helps farmers make data-driven decisions for better yield and sustainability.
+
+Features
+
+  Predicts the most suitable crop for given conditions
+
+  Displays top-3 crop recommendations with probabilities
+
+  Visual insights through feature importance & heatmaps
+
+  Simple and interactive Streamlit web app
+
+Technologies Used
+
+  Python, Streamlit
+
+  Pandas, NumPy, Seaborn, Matplotlib
+
+  Scikit-learn (RandomForestClassifier)
+
+  Pickle for model saving
